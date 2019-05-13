@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{ec4859fc-cded-4bdc-bf0f-32b80f8fe426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generated">
+      <UniqueIdentifier>{958f9205-e8e4-43e1-bfe2-b06ae558033e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\scripts\bin2hex.c">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scripts\cmapdump.c">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scripts\cquote.c">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scripts\fontdump.c">
+      <Filter>scripts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\generated\gen_adobe_ca.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gen_cmap_cns.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gen_cmap_gb.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gen_cmap_japan.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gen_cmap_korea.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gen_font_base14.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gen_font_cjk.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gen_font_cjk_full.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gen_font_droid.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gen_js_util.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="generate.bat" />
+  </ItemGroup>
+</Project>
